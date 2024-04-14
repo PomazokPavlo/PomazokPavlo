@@ -1,0 +1,33 @@
+class MyClass { constructor() { this.property = getRandomString(); } }
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+grape
+
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+kiwi - 35
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+grape - banana
+function addNumbers(a, b) { return a + b; }
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+false - true
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+grape * apple
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+false - 21
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+18,62,45,27,22,81,65,0,67,39,65,84,79,1,31,48,36,13,43 + apple
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
